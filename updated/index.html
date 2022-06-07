@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="app.js" defer></script>
+  </head>
+  <body>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href="banner.html" rel="import"/>
+    <style>
+    *{
+      margin: 0;
+      padding: 0;
+       box-sizing: border-box;
+      }
+      h3{
+        color: white;
+        font-size: 4vmin;
+        font-weight: bolder;
+        margin-top: 4vmin;
+        margin-left: 6vmin;
+      }
+    
+      footer{
+        /* position: absolute; */
+        height: auto;
+        width: 100vw;
+        margin-top: 4vmin;
+        /* background-color: #7c6a4a; */
+      }
+      .rectangle {
+        background-color: #7c6a4a;
+      }
+      
+    body {
+        font-family: 'Montserrat',
+    }
+    </style>
+    <div class="content">
+      <div class="outer">
+        <div class="pyro">
+          <div class="before"></div>
+          <div class="after"></div>
+        </div>
+        <div id="banner"></div>
+        
+        <script>
+          var img = document.createElement("img");
+
+          img.src = "./uae.png";
+          img.style.width = "1300px";
+          img.style.height = "400px";
+          img.style.marginTop="30px";
+          var div = document.getElementById("banner");
+          div.appendChild(img);
+        </script>
+      </div>
+    </div>
+    <!-- <footer id="banner2">
+      <p><img style="width:100%;margin-top: 40px;margin-bottom: 40px; height:210px"src="./banner5.png"/></p>
+    </footer> -->
+    <footer>
+      <div class="rectangle">
+        <h3>Contact Us</h3>
+
+      <div>
+      <h2 style="
+      color:white; 
+      font-size:25px;
+      margin-top: -30px;
+      margin-left:800px;
+      font-weight: bolder;">
+      Download our app</h2>
+
+      <p><img style="
+      height: 45px;width: 45px; 
+      margin-left: 45px;
+      margin-top: 20px;
+      display: flexbox;"
+      src="./Watsapp.png"/>
+    </p>
+      <p style="
+      color:white;
+      margin-left:100px;
+      margin-top: -35px;"
+      ><a style="
+      color: white;
+      margin-left: 5px;
+      "href="tel:+971566884744">
+      +971 56 688 4744
+    </a></p>
+
+      <p><img style="
+      height:57px;
+      margin-left:800px;
+      margin-top: -29px;
+      "src="./playstore.png"/>
+      </p>
+
+      <p><img style="
+      height:60px;
+      margin-left:1250px;
+      margin-top: -29px;
+      "src="./playstoreqr.png"/>
+      </p>
+    </div>
+  
+    <div>
+    <p><img style="
+      height: 45px;
+      width: 45px;
+      margin-left: 300px;
+      margin-top: -35px;
+      display: flex;
+      "src="./Email.png"/>
+      </p>
+
+
+    <p style="
+    color:white;
+    margin-left:360px;
+    margin-top: -30px;
+    position: absolute;"
+    ><a style="
+    color:white"
+     href="mailto:smartsupport-uae@mafcarrefour.com">smartsupport-uae@mafcarrefour.com
+    </a></p>
+
+    <p><img style="
+    height:58px;
+    margin-left: 1000px;
+    margin-top: -40px;"
+    src="./appstore.png"/>
+  </p>
+    <p><img style="
+    height:60px;
+    margin-left: 1350px;
+    margin-top: -60px;
+    display: flex;"
+    src="./appstoreqr.png"/>
+  </p>
+      </div>
+    </footer>
+      
+  </div>
+  </body>
+</html>
